@@ -4,7 +4,6 @@ import { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { adminDb, authAdmin } from "./firebase-admin";
 import type { Adapter } from 'next-auth/adapters';
-// @ts-expect-error
 export const authOptions: NextAuthOptions = {
   providers: [
     GoogleProvider({
