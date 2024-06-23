@@ -1,6 +1,6 @@
 import { initFirestore } from "@auth/firebase-adapter";
 import { cert } from "firebase-admin/app"
-
+import admin from "firebase-admin";
 let app;
 
 if (!admin.app.length) {
